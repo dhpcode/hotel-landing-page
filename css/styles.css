@@ -119,8 +119,12 @@ only screen and (min-resolution: 2dppx) {}
 
 .site-header__container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__main-link {
+  align-self: flex-end;
 }
 
 .logo {
@@ -137,16 +141,13 @@ only screen and (min-resolution: 2dppx) {}
   opacity: 0.6;
 }
 
-.site-header__logo {}
 
 .logo-img {
   width: 30px;
   height: 46px;
   margin-right: 9px;
-
 }
 
-.site-header__logo {}
 
 .logo-text {
   text-transform: uppercase;
