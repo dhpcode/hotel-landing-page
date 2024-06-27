@@ -318,7 +318,7 @@ only screen and (min-resolution: 2dppx) {}
 
 .hero__img-payment {
   position: absolute;
-  right: 0;
+  right: -10%;
   top: 100px;
   background-color: #fff;
   padding: 19px 22px;
