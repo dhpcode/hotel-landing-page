@@ -317,13 +317,23 @@ only screen and (min-resolution: 2dppx) {}
 }
 
 .hero__img-payment {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  background-color: #fff;
+  padding: 19px 22px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 28px 0px #5454541A;
+}
+
+.payment-img {
   width: 69px;
   height: 86px;
 }
 
 .hero__img-static {
   position: absolute;
-  left: -50%;
+  left: -20%;
   bottom: 71px;
   width: 206px;
   height: 163px;
