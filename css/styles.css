@@ -338,3 +338,83 @@ only screen and (min-resolution: 2dppx) {}
   width: 206px;
   height: 163px;
 }
+
+
+
+/* AVAILABILITY */
+
+.availability {
+  padding-top: 121px;
+  padding-bottom: 118px;
+}
+
+.availability-content {
+  text-align: center;
+  width: 452px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 46px;
+}
+
+.availability-content__title {
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.availability-content__text {
+  font-family: var(--text-font);
+  color: #959595;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.availability__check {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.availability__check-image-box {
+  background-color: #b1bed0;
+  width: 635px;
+  padding-top: 90px;
+}
+
+.availability__check-img {
+  display: block;
+  width: 635px;
+  height: 434px;
+}
+
+.availability__check-input-box {
+  padding: 77px 68px;
+  background-color: #f6fcfa;
+  width: 475px;
+}
+
+.availability-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.availability-form__input {}
+
+.availability-form__input-title {}
+
+.availability-form__input-box {}
+
+.availability-form__input-field {}
+
+.availability-form__img {}
+
+.main-link {}
+
+.site-header__main-link {}
