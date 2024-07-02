@@ -470,3 +470,123 @@ only screen and (min-resolution: 2dppx) {}
   top: 0;
   right: 0;
 }
+
+
+
+/* ROOMS */
+
+.rooms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 113px;
+}
+
+.rooms__content {
+  width: 525px;
+  margin-bottom: 46px;
+  text-align: center;
+}
+
+.rooms__title {
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.rooms__text {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 2%;
+  color: #959595;
+  margin: 0;
+}
+
+.rooms__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.rooms__list-item {
+  width: 350px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  overflow: hidden;
+}
+
+.rooms__list-img {
+  display: block;
+  width: 350px;
+  height: 264px;
+}
+
+.rooms__list-content {
+  padding: 24px 22px;
+  border: 1px solid #596B86;
+}
+
+.rooms__list-title {
+  font-family: var(--title-font);
+  font-size: 24px;
+  line-height: 55px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #131313;
+}
+
+.rooms__list-specs {
+  display: flex;
+  gap: 17px;
+}
+
+.room-specs {
+  font-family: var(--title-font);
+  font-weight: 300;
+  color: #727272;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.room-specs__area::before {
+  content: url('../img/rooms/area.png');
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+}
+
+.room-specs__size::before {
+  content: url('../img/rooms/bed.png');
+  margin-right: 5px;
+}
+
+.room-specs__facility::before {
+  content: url('../img/rooms/facility.png');
+  margin-right: 5px;
+}
+
+.rooms__list-price {}
+
+.room-price {
+  font-family: var(--title-font);
+}
+
+.room-price__price {
+  font-size: 30px;
+  line-height: 55px;
+  font-weight: 600;
+}
+
+.room-price__day {
+  font-size: 18px;
+  line-height: 55px;
+  color: #585858;
+}
