@@ -400,21 +400,64 @@ only screen and (min-resolution: 2dppx) {}
   width: 475px;
 }
 
-.availability-form {
+.availability-form__inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.availability-form__input {
   display: flex;
   flex-direction: column;
 }
 
-.availability-form__input {}
+.availability-form__input:not(:last-child) {
+  margin-bottom: 29px;
+}
 
-.availability-form__input-title {}
+.availability-form__input-title {
+  color: #222426;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 3%;
+  margin-bottom: 10px;
+}
 
-.availability-form__input-box {}
+.availability-form__input-box {
+  width: 100%;
+}
 
-.availability-form__input-field {}
+.availability-form__input-field {
+  position: relative;
+  padding: 12px 14px;
+  width: 100%;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  outline: none;
+}
 
-.availability-form__img {}
+.availability-form__input-field-calendar {
+  background-image: url(../img/calendar.png);
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+}
 
-.main-link {}
+.availability-form__input-field-arrow {
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+}
 
-.site-header__main-link {}
+.availability-form__link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 17px 0;
+  border: 1px solid #596B86;
+  background-color: transparent;
+  color: #222426;
+  border-radius: 2px;
+}
