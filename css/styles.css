@@ -377,6 +377,7 @@ only screen and (min-resolution: 2dppx) {}
 }
 
 .availability__check {
+  position: relative;
   display: flex;
   border-radius: 5px;
   overflow: hidden;
@@ -460,4 +461,12 @@ only screen and (min-resolution: 2dppx) {}
   background-color: transparent;
   color: #222426;
   border-radius: 2px;
+}
+
+.arrows {
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
