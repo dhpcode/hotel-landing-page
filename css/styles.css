@@ -667,3 +667,41 @@ only screen and (min-resolution: 2dppx) {}
   top: 20px;
   right: 32px;
 }
+
+/* Branches */
+
+.branches {
+  text-align: center;
+  margin-bottom: 126px;
+}
+
+.branches__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.branches__item {
+  text-align: center;
+  padding: 0 86px;
+}
+
+.branches__item:not(:last-child) {
+  border-right: 1.5px solid #C3C3C3;
+}
+
+.branches__number {
+  font-size: 50px;
+  line-height: 55px;
+  color: #596b86;
+  margin: 0;
+  font-family: var(--title-font);
+
+}
+
+.branches__text {
+  font-family: var(--text-color);
+  color: #939393;
+  margin: 0;
+}
