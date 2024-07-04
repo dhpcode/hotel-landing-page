@@ -1,7 +1,8 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 /* CUSTOM PROPS */
 
 :root {
@@ -784,3 +785,90 @@ only screen and (min-resolution: 2dppx) {}
   width: 130px;
   height: 130px;
 }
+
+
+/* Customers */
+
+.customers {
+  margin-bottom: 124px;
+}
+
+.customers-content {
+  margin-bottom: 40px;
+}
+
+.customers__title {
+  font-weight: 400;
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+
+.customers__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: #959595;
+}
+
+.customers__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 78px;
+}
+
+.customers__list-item {}
+
+.customer {
+  width: 350px;
+  background-color: #f6fcfa;
+  padding: 50px 37px;
+  border-radius: 6px;
+}
+
+.customer__img {
+  display: block;
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.customer__name {
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #101828;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.customer__position {
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #606772;
+  margin-bottom: 27px;
+}
+
+.customer__text {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.customers__carousel {
+  text-align: center;
+}
+
+.customers__carousel--img {}
