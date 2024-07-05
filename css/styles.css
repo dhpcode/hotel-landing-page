@@ -821,15 +821,26 @@ only screen and (min-resolution: 2dppx) {}
   display: flex;
   gap: 30px;
   margin-bottom: 78px;
+  position: relative;
 }
 
-.customers__list-item {}
 
 .customer {
   width: 350px;
   background-color: #f6fcfa;
   padding: 50px 37px;
   border-radius: 6px;
+}
+
+.customer {
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.customer:hover {
+  background-color: rgba(113, 136, 170, 55%);
+  color: #fff;
+  transform: scale(1.01);
 }
 
 .customer__img {
