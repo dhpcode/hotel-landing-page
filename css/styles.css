@@ -843,6 +843,14 @@ only screen and (min-resolution: 2dppx) {}
   transform: scale(1.01);
 }
 
+.customer:hover h3 {
+  color: white;
+}
+
+.customer:hover span {
+  color: white;
+}
+
 .customer__img {
   display: block;
   width: 83px;
