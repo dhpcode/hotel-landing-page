@@ -834,14 +834,14 @@ only screen and (min-resolution: 2dppx) {}
 
 .customer {
   cursor: pointer;
-  transition:  all ease 0.3s;
+  transition: all ease 0.5s;
 }
 
 .customer:hover {
   background-color: rgba(113, 136, 170, 55%);
   color: #fff;
   transform: translate(0, -20px);
-  box-shadow: 5px 5px 10px #cca;
+  box-shadow: 5px 5px 10px 3px #cca;
 }
 
 .customer:hover h3 {
