@@ -840,7 +840,7 @@ only screen and (min-resolution: 2dppx) {}
 .customer:hover {
   background-color: rgba(113, 136, 170, 55%);
   color: #fff;
-  transform: translate(0, -20px);
+  transform: translate(0, -26px);
   box-shadow: 5px 5px 10px 3px #cca;
 }
 
