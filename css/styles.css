@@ -891,6 +891,143 @@ only screen and (min-resolution: 2dppx) {}
   text-align: center;
 }
 
-.customers__carousel--img {
+/* Hotel blog */
 
+.hotel-blog {}
+
+.hotel-blog__content {
+  margin-bottom: 44px;
+}
+
+.hotel-blog__title {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #7587a0;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.hotel-blog__text {
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0;
+}
+
+.hotel-blog__list {}
+
+.blog {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 70px;
+}
+
+.blog__item {
+  overflow: hidden;
+}
+
+.blog__image {
+  width: 350px;
+  height: 316px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: block;
+}
+
+.blog__content {
+  padding: 19px 26px 28px;
+  border: 1px solid #596b86;
+}
+
+.blog__content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.blog__content-top-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  color: #797979;
+  font-family: var(--title-font);
+}
+
+.blog__content-top-link:hover {
+  opacity: 0.8;
+}
+
+.blog__content-top-link:active {
+  opacity: 0.6;
+}
+
+.blog__content-top-travel::before {
+  display: inline-block;
+  content: url(../img/blog-img/travel_icon.png);
+  width: 19px;
+  height: 21px;
+  margin-right: 9px;
+}
+
+.blog__content-top-comment::before {
+  display: inline-block;
+  content: url(../img/blog-img/comment_icon.png);
+  width: 19px;
+  height: 21px;
+  margin-right: 9px;
+}
+
+.blog__content-title {
+  color: #131313;
+  font-family: var(--title-font);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.blog__content-text {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 2%;
+  color: #9b9b9b;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.blog__content-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2%;
+  color: #596b86;
+}
+
+.blog__content-link:hover {
+  opacity: 0.8;
+}
+
+.blog__content-link:active {
+  opacity: 0.6;
+}
+
+.blog__content-link::after {  
+  content: url(../img/blog-img/arrow_icon.png);
+  margin-left: 8px;
+}
+
+.hotel-blog__carousel {
+  margin-bottom: 130px;
 }
