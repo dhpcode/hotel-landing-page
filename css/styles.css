@@ -1023,7 +1023,7 @@ only screen and (min-resolution: 2dppx) {}
   opacity: 0.6;
 }
 
-.blog__content-link::after {  
+.blog__content-link::after {
   content: url(../img/blog-img/arrow_icon.png);
   margin-left: 8px;
 }
@@ -1031,3 +1031,39 @@ only screen and (min-resolution: 2dppx) {}
 .hotel-blog__carousel {
   margin-bottom: 130px;
 }
+
+/* Contact CTA */
+
+.contact-cta {
+  padding: 73px 0;
+  background-color: #B1BED0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.contact-cta__text {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.contact-cta__title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: var(--title-font);
+  color: #334052;
+  margin-bottom: 44px;
+}
+
+.contact-cta__form {}
+
+.contact-cta__input {}
+
+.contact-cta__button {}
