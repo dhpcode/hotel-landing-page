@@ -1062,8 +1062,42 @@ only screen and (min-resolution: 2dppx) {}
   margin-bottom: 44px;
 }
 
-.contact-cta__form {}
+.contact-cta__form {
+  width: 446px;
+  position: relative;
+  display: flex;
+  box-shadow: 3px 3px 10px 2px #999797;
+  border-radius: 6px;
+  overflow: hidden;
+}
 
-.contact-cta__input {}
+.contact-cta__input {
+  padding: 13px 19px;
+  font-family: var(--title-font);
+  outline: none;
+  border: none;
+  font-size: 14px;
+  width: 354px;
+}
 
-.contact-cta__button {}
+.contact-cta__button {
+  padding: 13px 15px;
+  position: relative;
+  /* left: -15px; */
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: #fff;
+  background-color: #889CB9;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  width: 174px;
+}
+.contact-cta__button:hover {
+  opacity: 0.8;
+}
+.contact-cta__button:active {
+  opacity: 0.6;
+}
